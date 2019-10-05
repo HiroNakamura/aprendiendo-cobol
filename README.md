@@ -65,3 +65,5 @@ Ejecutamos:
 $ ./hola.exe
 ```
 
+Enlaces:
+https://mainframe-forum.blogspot.com/search?q=cobol
