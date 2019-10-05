@@ -17,6 +17,18 @@ Curso sobre el lenguaje de programación COBOL.
 
 
 
+Instalación:
+
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install open-cobol
+$ cobc -V
+```
+
+
+
+
 Ejemplo de HOLA, MUNDO EN COBOL.
 
 
