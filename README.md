@@ -66,4 +66,6 @@ $ ./hola.exe
 ```
 
 Enlaces:
-https://mainframe-forum.blogspot.com/search?q=cobol
+
+* [Mainframe](https://mainframe-forum.blogspot.com/search?q=cobol)
+* [Beginning COBOL for programmers](https://github.com/Apress/beg-cobol-for-programmers)
