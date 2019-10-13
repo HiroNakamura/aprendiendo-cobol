@@ -1,0 +1,22 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. IMPUESTO POR VENTA.
+AUTHOR HIRONAKAMURA.
+INSTALLATION. GITHUB.
+DATE-WRITTEN. 12/10/19.
+DATE-COMPILED.
+SECURITY. NO ES CONFIDENCIAL.
+
+* > Ejemplo sacado del libro Beginning COBOL for programmers
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01 beforeTax PIC 999V99 VALUE 123.45.
+01 salesTaxRate PIC V999 VALUE .065.
+01 afterTax PIC 999.99.
+
+PROCEDURE DIVISION.
+BEGIN.
+DISPLAY '****************************'.
+DISPLAY '**  PROGRAMANDO EN COBOL  **'.
+DISPLAY '                            '.
+COMPUTE afterTax ROUNDED = beforeTax + (beforeTax * salesTaxRate)
+DISPLAY "El monto es:" afterTax.
