@@ -53,7 +53,19 @@ STOP RUN.
 ```
 
 
-Compilamos:
+Mostrar versión del compilador:
+```bash
+$ cobc -V 
+$ cobc --version
+```
+
+Mostrar ayuda:
+```bash
+$ cobc --help
+```
+
+
+Compilamos con:
 
 ```bash
 $ cobc -x -free hola.cbl -o hola.exe
