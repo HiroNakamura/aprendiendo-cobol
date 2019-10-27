@@ -81,3 +81,5 @@ Enlaces:
 
 * [Mainframe](https://mainframe-forum.blogspot.com/search?q=cobol)
 * [Beginning COBOL for programmers](https://github.com/Apress/beg-cobol-for-programmers)
+* [Convertir COBOL a C](http://www.mpsinc.com/cob2c.html)
+* [Convertir COBOL a Java](https://www.quora.com/What-tool-can-convert-Cobol-into-Java-code)
