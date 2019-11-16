@@ -16,8 +16,11 @@ WORKING-STORAGE SECTION.
 01 WS-NUMX       PIC 9(10)     VALUE ZEROS.
 01 WS-NUMY     PIC 9(10)     VALUE ZEROS.
 01 WS-RESULT     PIC 99(10)    VALUE 0.
-01 INTRODUCCION     PIC X(38) VALUE
-                  "Por favor, introduce dos numeros".
+01 INTRODUCCION     PIC X(38) VALUE "Por favor, introduce dos numeros".
+01 NUM-A PIC 9.
+01 NUM-B PIC 9.
+01 SUMA PIC 9.
+
 PROCEDURE DIVISION.
 CalculateResult.
    DISPLAY INTRODUCCION
@@ -25,4 +28,10 @@ CalculateResult.
    ACCEPT WS-NUMY
    COMPUTE WS-RESULT = WS-NUMX + WS-NUMY
    DISPLAY "El resultado es = ", WS-RESULT
+   MOVE 4 TO NUM-A.
+   MOVE 3 TO NUM-B.
+   ADD NUM-A NUM-B TO SUMA.
+   DISPLAY "NUMERO A = "NUM-A.
+   DISPLAY "NUMERO B = "NUM-B.
+   DISPLAY "SUMA = "SUMA.
    STOP RUN.
