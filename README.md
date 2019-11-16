@@ -3,9 +3,7 @@
 ![Cobol](https://2.bp.blogspot.com/-jkpGBmdZaW8/UccuEURnxbI/AAAAAAAABrA/ngTn1s0SXCEyi4TUVaDFZ-dn9-UfJVjTwCPcBGAYYCw/s320/code.png)
 
 
-Curso sobre el lenguaje de programación COBOL.
-
-
+Curso sobre el lenguaje de programación **COBOL**. El software para compilar los programas es Open COBOL.
 
 
 
@@ -13,11 +11,11 @@ Curso sobre el lenguaje de programación COBOL.
 1. Tipos de datos.
 2. Sentencias de control.
 3. Estructuras de datos.
-4. Otros.
+4. Archivos.
+5. Más.
 
 
-
-Instalación:
+Instalación de **Open COBOL**:
 
 
 ```bash
@@ -25,8 +23,6 @@ $ sudo apt-get update
 $ sudo apt-get install open-cobol
 $ cobc -V
 ```
-
-
 
 
 Ejemplo de HOLA, MUNDO EN COBOL.
@@ -83,3 +79,4 @@ Enlaces:
 * [Beginning COBOL for programmers](https://github.com/Apress/beg-cobol-for-programmers)
 * [Convertir COBOL a C](http://www.mpsinc.com/cob2c.html)
 * [Convertir COBOL a Java](https://www.quora.com/What-tool-can-convert-Cobol-into-Java-code)
+* [Open COBOL](https://open-cobol.sourceforge.io/)
