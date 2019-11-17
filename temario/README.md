@@ -18,7 +18,7 @@ DATA DIVISION.
    01 WS-NOMBRE PIC X(10).
    01 WS-CLAVE PIC A(30).
 
-*> ...
+```
 
 
 **ACCEPT**
@@ -70,7 +70,6 @@ MIFUNCION.
   
  
  ```
-
 
 
 **COMPUTE**
