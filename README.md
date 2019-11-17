@@ -80,3 +80,4 @@ Enlaces:
 * [Convertir COBOL a C](http://www.mpsinc.com/cob2c.html)
 * [Convertir COBOL a Java](https://www.quora.com/What-tool-can-convert-Cobol-into-Java-code)
 * [Open COBOL](https://open-cobol.sourceforge.io/)
+* [¿Qué es COBOL?](https://medium.com/enredando-con-programacion/cobol-que-es-cobol-3f86fa3a4394)
