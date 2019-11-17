@@ -1,6 +1,34 @@
 # COBOL para beginners
 
 
+![Dilbert COBOL](https://1.bp.blogspot.com/-sQVrVJ7NQ_w/XdAk6uF9MxI/AAAAAAAAByg/YHyITfmywDkWUwJEKvS7GE1zbIXY5MVPACLcBGAsYHQ/s1600/dilbert-cobol-programmer-dinosaur1.gif)
+
+**SET**
+
+```java
+
+*> SET VARIABLE TO VALOR, SIMILAR A MOVE
+SET EDAD TO 33
+SET NOMBRE TO "MARIANA"
+SET CLAVE TO "MX2-342"
+
+```
+
+**EXIT PROGRAM**
+
+```java
+PROCEDURE DIVISION.
+*> HACER ALGO
+EXIT PROGRAM.
+```
+
+**GOBACK**
+
+```java
+PROCEDURE DIVISION.
+*> HACER ALGO
+GOBACK.
+```
 
 
 **DECLARAR VARIABLES**
