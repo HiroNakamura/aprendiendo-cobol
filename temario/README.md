@@ -14,11 +14,27 @@
 *> AQUI DECLARO LAS VARIABLES
 DATA DIVISION.
    WORKING-STORAGE SECTION.
+   *> Numéricas
    01 WS-NUM-A PICTURE 9(5).
+   *> Alfanuméricas
    01 WS-NOMBRE PIC X(10).
+   *> Alfabéticas
    01 WS-CLAVE PIC A(30).
 
 ```
+
+**VARIABLES TIPO ESTRUCTURA**
+```java
+*> AQUI DECLARO LAS VARIABLES
+DATA DIVISION.
+   WORKING-STORAGE SECTION.
+   01 Caracter PIC X.
+      88 Vocales VALUE "a","e","i","o","u".
+      88 Consonantes VALUE "b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y"
+,"z".
+      88 Numeros VALUE "0" THRU "9".
+```
+
 
 
 **ACCEPT**
