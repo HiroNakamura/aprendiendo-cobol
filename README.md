@@ -75,6 +75,7 @@ $ ./hola.exe
 
 Enlaces:
 
+* [ESCOBOL](http://www.escobol.com/)
 * [Mainframe](https://mainframe-forum.blogspot.com/search?q=cobol)
 * [Beginning COBOL for programmers](https://github.com/Apress/beg-cobol-for-programmers)
 * [Convertir COBOL a C](http://www.mpsinc.com/cob2c.html)
