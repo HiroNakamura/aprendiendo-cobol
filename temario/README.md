@@ -2,6 +2,24 @@
 
 
 
+**TIPOS DE DATOS**
+
+1. Alfabético.
+2. Alfanumérico.
+3. Numérico.
+
+
+
+```java
+*> AQUI DECLARO LAS VARIABLES
+DATA DIVISION.
+   WORKING-STORAGE SECTION.
+   01 WS-NUM-A PICTURE 9(5).
+   01 WS-NOMBRE PIC X(10).
+   01 WS-CLAVE PIC A(30).
+
+*> ...
+
 
 **ACCEPT**
 ```java
@@ -41,6 +59,18 @@ MOVE 'ANDREA' TO WS-NOMBRE.
    ELSE
       DISPLAY 'AUN NO TIENES USUARIO REGISTRADO'WS-NOMBRE
    END-IF.
+ ```
+
+**PERFORM**
+```java
+*> ES COMO LLAMAR A UNA FUNCIÓN
+PERFORM MIFUNCION 10 TIMES.
+
+
+MIFUNCION.
+ DISPLAY "HOLA, MUNDO!!".
+  
+ 
  ```
 
 
