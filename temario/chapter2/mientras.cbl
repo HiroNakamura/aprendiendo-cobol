@@ -1,0 +1,18 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. USOPERFORM.
+AUTHOR. HIRONAKAMURA.
+
+DATA DIVISION.
+   WORKING-STORAGE SECTION.
+   01 WS-A PIC 9 VALUE 3.
+
+
+PROCEDURE DIVISION.
+Inicio.
+    DISPLAY "Este es el principio del programa"
+    PERFORM Rutina1 VARYING WS-A FROM 1 BY 1 UNTIL WS-A = 5
+    DISPLAY "Ahora voy a terminar el programa"
+    STOP RUN.
+    
+Rutina1.
+    DISPLAY "Numero: "WS-A.
