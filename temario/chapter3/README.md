@@ -24,13 +24,49 @@ FD MI-ARCHIVO.
 ```
 
 
+**SELECT**
+
+```java
+SELECT MIS-DATOS ASSIGN TO "datos.dat"
+```
+
 **OPEN**
 
-```javascript
+```java
 OPEN INPUT MI-ARCHIVO
 ```
 
+**READ**
+
+```java
+READ nombreinternodelfichero NEXT/PREVIOUS RECORD INTO descripción
+AT END / NO AT END instrucciones
+END-READ
+```
+
+
+**WRITE**
+```java
+WRITE registro FROM variable
+```
+
+**DELETE**
+
+```java
+DELETE nombreinternodelfichero
+    INVALID KEY instrucciones
+    NOT INVALID KEY instrucciones
+END-DELETE
+```
+
+
+
 **CLOSE**
-```javascript
+```java
 CLOSE MI-ARCHIVO
 ```
+
+
+
+
+
