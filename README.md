@@ -10,9 +10,10 @@ Curso sobre el lenguaje de programación **COBOL**. El software para compilar lo
 ### Temario
 1. Tipos de datos.
 2. Sentencias de control.
-3. Estructuras de datos.
-4. Archivos.
-5. Más.
+3. Archivos.
+4. Estructuras de datos.
+5. Cadenas.
+6. Más.
 
 
 Instalación de **Open COBOL**:
