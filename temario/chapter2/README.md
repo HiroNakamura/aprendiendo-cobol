@@ -7,16 +7,33 @@ COBOL es un lenguaje de programación estructurado donde la lógica secuencial e
 3. Repetitiva (iterativa).
 
 
+**IF**
+
+```java
+IF DATO IS NOT NUMERIC THEN
+  MOVE ZEROS TO CONTADOR
+END-IF
+
+SET X TO 100
+
+IF X IS NUMERIC THEN
+   GO TO MI-PARRAFO
+END-IF
+
+```
 
 
 
 **IF-ELSE**
+
 ```java
 IF EDAD >= 18 THEN
    DISPLAY "Tienes edad para votar"
 ELSE
    DISPLAY "No puede votar aun"
- ```
+END-IF
+
+```
 
 
 **EVALUATE**
