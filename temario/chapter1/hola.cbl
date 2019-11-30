@@ -4,7 +4,7 @@ AUTHOR. HIRONAKAMURA.
 INSTALLATION. GITHUB.
 DATE-WRITTEN. 05/10/19.
 DATE-COMPILED. 27/10/19.
-SECURITY. NO ES CONFIDENCIAL.
+SECURITY. CONFIDENCIAL.
 
 ENVIRONMENT DIVISION.
 CONFIGURATION SECTION.
@@ -17,5 +17,7 @@ DISPLAY '****************************'.
 DISPLAY '**  PROGRAMANDO EN COBOL  **'.
 DISPLAY '                            '.
 DISPLAY '       HOLA, MUNDO!!        '.
+DISPLAY '        ----   ----         '.
+DISPLAY '       @HIRONAKAMURA        '.
 DISPLAY '****************************'.
 STOP RUN.
