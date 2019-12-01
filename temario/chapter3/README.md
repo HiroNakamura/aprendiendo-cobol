@@ -4,9 +4,6 @@
 
 
 
-
-
-
 **Ejemplo de manejo de archivos**
 
 ```javascript
