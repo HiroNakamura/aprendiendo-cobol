@@ -8,10 +8,10 @@ Curso sobre el lenguaje de programación **COBOL**. El software para compilar lo
 
 
 ### Temario
-1. Tipos de datos.
-2. Sentencias de control.
-3. Archivos.
-4. Estructuras de datos.
+1. [Tipos de datos](https://github.com/HiroNakamura/aprendiendo-cobol/tree/master/temario/chapter1)
+2. [Sentencias de control](https://github.com/HiroNakamura/aprendiendo-cobol/tree/master/temario/chapter2)
+3. [Archivos](https://github.com/HiroNakamura/aprendiendo-cobol/tree/master/temario/chapter3)
+4. [Estructuras de datos](https://github.com/HiroNakamura/aprendiendo-cobol/tree/master/temario/chapter4)
 5. Cadenas.
 6. Más.
 
