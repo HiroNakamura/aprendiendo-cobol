@@ -6,7 +6,6 @@ COBOL es un lenguaje de programación estructurado donde la lógica secuencial e
 2. Selectiva (condicional).
 3. Repetitiva (iterativa).
 
-
 **IF**
 
 ```java
@@ -34,6 +33,22 @@ ELSE
 END-IF
 
 ```
+
+**Sentencias IF**
+
+| Sentencia IF | Sentencia abreviada|
+| ------------- | ------------- |
+| IF X EQUAL Y | IF X = Y  |
+| IF X LESS THAN Y | IF X < Y  |
+| IF X LESS OR EQUAL Y | IF X <= Y  |
+| IF X GREATER Y | IF X > Y  |
+| IF X GREATER THAN OR EQUAL Y | IF X >= Y  |
+| IF X NOT EQUAL Y | IF X NOT = Y  |
+| IF X NOT LESS THAN Y | IF X NOT < Y  |
+| IF X NOT GREATER THAN Y | IF X NOT > Y  |
+
+
+
 
 
 **EVALUATE**
